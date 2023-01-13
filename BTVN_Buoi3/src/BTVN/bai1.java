@@ -36,8 +36,9 @@ public class bai1 {
 	
 	// ham nhap
 	public static void nhapMang(int[] a, int n) {
+		Scanner scanner = new Scanner(System.in);
 		for (int i = 0; i < a.length; i++) {
-			a[i] = new Scanner(System.in).nextInt(); 
+			a[i] = scanner.nextInt(); 
 		}
 	}
 }

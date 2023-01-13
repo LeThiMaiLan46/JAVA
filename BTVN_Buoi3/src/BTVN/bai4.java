@@ -42,8 +42,7 @@ public class bai4 {
 	// ham tim so sieu nguyen to
 	public static int soSieuNguyenTo(int x) {
 		while (x > 0) {
-			x = x % 10;
-			if (soNguyenTo(x) == 0) {
+			if (soNguyenTo(x % 10) == 0) {
 				return 0;
 			}
 			x = x / 10;
